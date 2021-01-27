@@ -8,7 +8,7 @@ import GlobalStyle from './components/GlobalStyle';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/social-media">
     <GlobalStyle/>
     <Switch>
     <Route path="/" exact component={ProfilePage} />
